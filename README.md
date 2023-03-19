@@ -31,7 +31,7 @@ To install and run the CID Management System REST API, follow these steps:
 1.  Clone this repository: `git clone https://github.com/danielecostarella/pycalls-api.git`
 2.  Navigate to the project directory: `cd pycalls-api`
 3.  Install the required packages: `pip install -r requirements.txt`
-4.  Run the API: `uvicorn main:app --reload`
+4.  Run the API: `uvicorn app.main:app --host localhost --port 8000 --reload`
 
 Usage
 -----
